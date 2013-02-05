@@ -1,0 +1,32 @@
+/*handheld.css*/
+body{
+	font-family:helvetica, sans-serif;
+	color: green;
+}
+
+#navigation_menu{
+	float: top;
+}
+
+#link_panel{
+	list-style-type: none;
+}
+
+#link_panel a{
+	display: block;
+	font-weight: bold;
+	font-size:large;
+	color: green;
+	background-color: rgb(101, 131, 9);
+	text-align: center;
+	padding: 0.3em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#top
+{
+	padding: .5em;
+	background-color: #ddd;
+	border-bottom: 1px solid gray;
+}
