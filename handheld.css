@@ -14,13 +14,18 @@ body{
 #link_panel a{
 	display: block;
 	font-weight: bold;
-	color: #FFFFFF;
+	font-size:large;
+	color: green;
 	background-color: rgb(101, 131, 9);
 	text-align: center;
 	padding: 0.3em;
 	text-decoration: none;
 	text-transform: uppercase;
 }
-#link_panel a:hover{
-	background-color: green;
+
+#top
+{
+	padding: .5em;
+	background-color: #ddd;
+	border-bottom: 1px solid gray;
 }
