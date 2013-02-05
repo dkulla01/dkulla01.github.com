@@ -3,9 +3,6 @@ body{
 	font-family:helvetica, sans-serif;
 }
 
-#navigation_menu{
-	float: top;
-}
 
 #link_panel{
 	list-style-type: none;
@@ -31,7 +28,7 @@ body{
 }
 
 #rockwell{
-	size:75%;
+	height:75%;
 	margin-left:auto;
 	margin-right:auto;
 }
