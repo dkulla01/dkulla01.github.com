@@ -2,3 +2,28 @@
 body{
 	font-family:helvetica, sans-serif;
 }
+
+#navigation_menu{
+	float: top;
+}
+
+#link_panel{
+	list-style-type: none;
+	margin:0em;
+	padding: 0em;
+}
+
+#link_panel a{
+	display: block;
+	width: 7em;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: rgb(101, 131, 9);
+	text-align: center;
+	padding: 0.3em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#link_panel a:hover{
+	background-color: green;
+}
