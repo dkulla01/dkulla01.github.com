@@ -9,13 +9,10 @@ body{
 
 #link_panel{
 	list-style-type: none;
-	margin:0em;
-	padding: 0em;
 }
 
 #link_panel a{
 	display: block;
-	width: 7em;
 	font-weight: bold;
 	color: #FFFFFF;
 	background-color: rgb(101, 131, 9);
