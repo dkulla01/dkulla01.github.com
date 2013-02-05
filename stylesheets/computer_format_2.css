@@ -53,11 +53,11 @@ h1{
 	background-color: green;
 }
 
-#caps{
+.caps{
 	text-transform: uppercase;	
 }
 
-#year{
+.year{
 	float: right;
 }
 #rockwell{
