@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>input test</title>
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
+</head>
+<body>
+    <form id = "submit_form">
+        Username
+        <input type = "text" name = "user" id = "username">
+        <input type = "submit" value = "submit">
+    </form>
+    <script>
+        $('#submit_form').submit(function(event){
+            
+            event.preventDefault();
+            var $form = $(this),
+            term = $form.find('#username').val();
+            alert(term);
+            
+            var postJSON = {
+                "game_title": "Frogger",
+                "username": term,
+                "Date": new Date()
+            };
+            alert(postJSON);
+            console.log(postJSON);
+            $.post('http://warm-depths-5834.herokuapp.com/submit.json', postJSON); 
+        });
+    </script>
+</body>
+</html>
